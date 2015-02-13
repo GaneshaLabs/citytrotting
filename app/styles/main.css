@@ -46,6 +46,18 @@ nav .navbar-brand {
 .jumbotron {
   background-image: url("../images/hero.jpg");
   background-color: black;
-  min-height: 715px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+
+
+  /*min-height: 700px;*/
   padding-top: 25px;
+}
+
+.jumbotron .hero-welcome {
+  color: #FFF;
+  text-align: center;
+  width: 100%;
+  margin-top: 100px;
 }
