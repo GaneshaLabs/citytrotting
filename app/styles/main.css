@@ -1,11 +1,51 @@
 /* Ganesha Labs, LLC */
 
 body {
-  padding-top: 50px;
   padding-bottom: 20px;
 }
 
-/*Jumbotron*/
+/* Nav Stuff */
+nav.navbar {
+  background-color: transparent;
+  min-height: 80px;
+  border: none;
+  border-bottom: 1px solid #F3F3F3;
+}
+nav .navbar-toggle {
+  margin-top: 24px;
+}
+nav .navbar-brand {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 50px;
+  margin-right: 20px;
+}
+.nav li a {
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 0px;
+  margin-right: 20px;
+  color: #FFF;
+  opacity: .8;
+  line-height: 30px;
+  border-bottom: 1px solid transparent;
+}
+.nav li a:hover {
+  border-bottom: 1px solid #FFF;
+  border-radius: 0px;
+  opacity: 1;
+  background-color: transparent;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+  background-color: transparent;
+}
+
+/* Jumbotron */
 .jumbotron {
   background-image: url("../images/hero.jpg");
+  background-color: black;
+  min-height: 715px;
+  padding-top: 25px;
 }
