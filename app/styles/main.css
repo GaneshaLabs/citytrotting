@@ -11,15 +11,18 @@ nav.navbar {
   border: none;
   border-bottom: 1px solid #F3F3F3;
 }
+
 nav .navbar-toggle {
   margin-top: 24px;
 }
+
 nav .navbar-brand {
   font-weight: 300;
   font-size: 30px;
   line-height: 50px;
   margin-right: 20px;
 }
+
 .nav li a {
   font-weight: 500;
   font-size: 15px;
@@ -32,12 +35,14 @@ nav .navbar-brand {
   line-height: 30px;
   border-bottom: 1px solid transparent;
 }
+
 .nav li a:hover {
   border-bottom: 1px solid #FFF;
   border-radius: 0px;
   opacity: 1;
   background-color: transparent;
 }
+
 .nav>li>a:hover, .nav>li>a:focus {
   background-color: transparent;
 }
@@ -49,11 +54,35 @@ nav .navbar-brand {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin-bottom: 0px;
+  padding-top: 25px;
 }
 
 .jumbotron .hero-welcome {
   color: #FFF;
   text-align: center;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 70px;
+}
+
+/*Logo Bar*/
+.logo-bar {
+  background-color: #202427;
+  text-align: center;
+}
+
+.bar div {
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 80px;
+}
+
+.bar img {
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto
 }
