@@ -44,15 +44,11 @@ nav .navbar-brand {
 
 /* Jumbotron */
 .jumbotron {
-  background-image: url("../images/hero.jpg");
-  background-color: black;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-
-
-  /*min-height: 700px;*/
-  padding-top: 25px;
+  background: url("../images/hero.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .jumbotron .hero-welcome {
