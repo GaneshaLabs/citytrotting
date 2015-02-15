@@ -56,13 +56,14 @@ nav .navbar-brand {
   background-size: cover;
   margin-bottom: 0px;
   padding-top: 25px;
+  height: 700px;
 }
 
 .jumbotron .hero-welcome {
   color: #FFF;
   text-align: center;
   width: 100%;
-  margin-top: 70px;
+  margin-top: 200px;
 }
 
 /*Logo Bar*/
