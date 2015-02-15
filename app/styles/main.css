@@ -84,5 +84,41 @@ nav .navbar-brand {
   bottom: 0;
   left: 0;
   right: 0;
-  margin: auto
+  margin: auto;
+}
+
+/*City List*/
+.cities {
+  padding: 70px 0;
+}
+
+.availability {
+  margin-bottom: 40px;
+}
+
+.city-container {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.city-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .city-container img {
+        position: relative;
+    }
+    .city-container:nth-child(odd) {
+        text-align: right;
+    }
+    .city-container:nth-child(odd) img {
+        right: -10px;
+    }
+    .city-container:nth-child(even) {
+        text-align: left;
+    }
+    .city-container:nth-child(even) img {
+        left: -10px;
+    }
 }
