@@ -325,6 +325,22 @@ module.exports = function (grunt) {
         'imagemin',
         'svgmin'
       ]
+    },
+
+    // Version control built code into gh-pages branch
+    buildcontrol: {
+      options: {
+        dir: 'dist',
+        commit: true,
+        push: true,
+        message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+      },
+      pages: {
+        options: {
+          remote: 'git@github.com:GaneshaLabs/citytrotting.git',
+          branch: 'gh-pages'
+        }
+      }
     }
   });
 
@@ -381,6 +397,8 @@ module.exports = function (grunt) {
     'usemin',
     'htmlmin'
   ]);
+
+  grunt.registerTask('deploy', ['buildcontrol']);
 
   grunt.registerTask('default', [
     'newer:jshint',
