@@ -337,7 +337,7 @@ module.exports = function (grunt) {
       },
       pages: {
         options: {
-          remote: 'git@github.com:GaneshaLabs/citytrotting.git',
+          remote: 'git@github.com:ganeshalabs/citytrotting.git',
           branch: 'gh-pages'
         }
       }
