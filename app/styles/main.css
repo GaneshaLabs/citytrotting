@@ -90,7 +90,7 @@ nav .navbar-brand {
 
 /*City List*/
 .cities {
-  padding: 70px 0;
+  padding: 40px 0;
 }
 
 .availability {
@@ -122,4 +122,14 @@ nav .navbar-brand {
     .city-container:nth-child(even) img {
         left: -10px;
     }
+}
+
+/*Features*/
+.features {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.features-title {
+  margin-bottom: 20px;
 }
