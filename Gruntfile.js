@@ -296,9 +296,17 @@ module.exports = function (grunt) {
           src: 'node_modules/apache-server-configs/dist/.htaccess',
           dest: '<%= config.dist %>/.htaccess'
         }, {
+          // Bootstrap Fonts
           expand: true,
           dot: true,
           cwd: 'bower_components/bootstrap/dist',
+          src: 'fonts/*',
+          dest: '<%= config.dist %>'
+        }, {
+          // Font Awesome Icons
+          expand: true,
+          dot: true,
+          cwd: 'bower_components/fontawesome',
           src: 'fonts/*',
           dest: '<%= config.dist %>'
         }]
