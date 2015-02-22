@@ -1,7 +1,7 @@
 /* Ganesha Labs, LLC */
 
-body {
-  /*padding-bottom: 20px;*/
+h3 {
+  margin-bottom: 30px;
 }
 
 /* Nav Stuff */
@@ -147,6 +147,6 @@ nav .navbar-brand {
   color: #FFF;
 }
 
-.footer h3 {
-  margin-bottom: 30px;
+.footer-icon {
+  margin-right: 10px;
 }
