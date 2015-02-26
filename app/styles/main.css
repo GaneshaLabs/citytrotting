@@ -164,8 +164,16 @@ nav .navbar-brand {
   background-color: #202427;
   color: #FFF;
   /*height: 60px;*/
-  /*text-align: center;*/
   padding-top: 40px;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-block {
+  display: inline-block;
+  text-align: left;
 }
 
 .footer a {
