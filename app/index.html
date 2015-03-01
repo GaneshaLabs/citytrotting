@@ -24,14 +24,31 @@
         <ul class="nav nav-pills">
           <li><a class="hidden-xs" href="#features">How It Works</a></li>
           <li><a href="#cities">Current Cities</a></li>
-          <li class="pull-right"><a href="/login">Login</a></li>
-          <li class="pull-right"><a href="/signup">Sign Up</a></li>
+          <li class="pull-right"><a data-toggle="modal" data-target="#myModal">Login</a></li>
+          <li class="pull-right"><a data-toggle="modal" data-target="#myModal">Sign Up</a></li>
         </ul>
 
         <div class="hero-welcome">
           <h1>City Trotting</h1>
-          <p>Be a local in every city. Avoid tourist traps. Where will you visit?</p>
+          <p>Be a local in every city. Where will you visit?</p>
           <p><a class="btn btn-primary btn-lg ghost-button" href="#features">Learn More</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">City Trotting</h4>
+          </div>
+          <div class="modal-body">
+            Interested in this project? To date, I've only built out the front end. If you'd like to help bring it to life, send me an email at <a href="mailto:me@jonahkirangi.com">me@jonahkirangi.com</a>.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
       </div>
     </section>

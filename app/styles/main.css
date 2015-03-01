@@ -91,6 +91,11 @@ nav .navbar-brand {
   margin-top: 200px;
 }
 
+/*Pop Up Modal*/
+.modal-body {
+  text-align: center;
+}
+
 /*Logo Bar*/
 .logo-bar {
   background-color: #202427;
